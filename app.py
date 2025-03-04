@@ -12,7 +12,7 @@ hands = mp_hands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.7
 mp_draw = mp.solutions.drawing_utils
 
 # Gesture Labels
-GESTURES = ["Hello", "Love You", "Thumbs Up", "Rock", "Bye","call me","good luck","I want to talk","loser","ok","Victory","Hurts a lot","Good job","My name is","Help","please","stop","Eat","More","What","Where","when"]
+GESTURES = ["Hello", "Love You", "Thumbs Up", "Zero", "Bye","call me","good luck","I want to talk","loser","ok","Victory","Hurts a lot","Good job"]
 
 # Check if a trained model exists
 MODEL_FILE = "gesture_model.pkl"
